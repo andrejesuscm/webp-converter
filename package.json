@@ -1,0 +1,54 @@
+{
+  "name": "@andrejesus/webp-converter",
+  "version": "1.0.0",
+  "description": "A small node.js library for converting any image to webp file format or converting webp image to any image file format.",
+  "main": "webpconverter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrejesuscm/webp-converter.git"
+  },
+  "keywords": [
+    "webp",
+    "webpconverter",
+    "webp-converter",
+    "cwebp",
+    "dwebp",
+    "gif2webp",
+    "webpmux"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "app.js",
+    "webpconverter.js",
+    "cwebp.js",
+    "dwebp.js",
+    "gwebp.js",
+    "webpmux.js",
+    "webpconverter_test.js",
+    "cwebp_test.js",
+    "dwebp_test.js",
+    "gwebp_test.js",
+    "webpmux_test.js",
+    "nodejs_logo.jpg",
+    "nodejs_logo.webp",
+    "linux_logo.gif",
+    "linux_logo.webp",
+    "lib/",
+    "images/",
+    "frames/"
+  ],
+  "author": "scionoftech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrejesuscm/webp-converter/issues"
+  },
+  "homepage": "https://github.com/andrejesuscm/webp-converter#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
