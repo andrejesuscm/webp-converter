@@ -17,7 +17,7 @@ module.exports.cwebp =function(input_image,output_image,option,callback)
 
 var query = option +' '+ input_image +' -o '+ output_image;//command to convert image 
 
-console.log(query);
+//console.log(query);
 
 //enwebp() return which platform webp library should be used for conversion
  exec(enwebp(),query.split(/\s+/), function (error, stdout, stderr) //execute command 
@@ -43,7 +43,7 @@ module.exports.dwebp =function(input_image,output_image,option,callback)
 var query = input_image + ' ' + option + ' ' + output_image;//command to convert image 
 
 
-console.log(query);
+//console.log(query);
 
 //dewebp() return which platform webp library should be used for conversion
  exec(dewebp(),query.split(/\s+/), function (error, stdout, stderr) //execute command 
